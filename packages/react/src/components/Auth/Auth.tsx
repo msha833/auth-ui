@@ -172,7 +172,7 @@ function Auth({
           appearance={appearance}
           supabaseClient={supabaseClient}
           setAuthView={setAuthView}
-          redirectTo={redirectTo}
+          redirectTo={`${window.location.origin}/auth/update-password`}
           showLinks={showLinks}
           i18n={i18n}
         />
