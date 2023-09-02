@@ -157,7 +157,6 @@ function Auth({
             defaultPassword={defaultPassword}
             setDefaultEmail={setDefaultEmail}
             setDefaultPassword={setDefaultPassword}
-            redirectTo={`${window.location.origin}`}
             magicLink={magicLink}
             showLinks={showLinks}
             i18n={i18n}
