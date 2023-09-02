@@ -162,6 +162,7 @@ function Auth({
             i18n={i18n}
             additionalData={additionalData}
             children={children}
+            redirectTo={`${window.location.origin}`}
           />
         </Container>
       )
